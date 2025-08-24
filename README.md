@@ -21,10 +21,10 @@ Copy .env.example to .env
 ## Edit .env to add your Gemini API Key and PORT:
 
 GEMINI_API_KEY=your_api_key_here
-PORT=3000
+PORT=3000 <br>
 MODEL=models/gemini-2.5-flash-preview-native-audio-dialog
 
 
 ## Run the application
 
-npm run dev
+npm start
