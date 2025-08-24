@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revolt Motors Voice Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="./images/revolt.jpg" alt="Revolt Motors Logo" style="height: 100px;">
+    </div>
+    <h1>Rev - Voice Assistant</h1>
+    <div class="status" id="status">Connecting...</div>
+    
+    <div class="conversation-container" id="conversation">
+      <div class="message assistant-message">
+        Hello! I'm Rev, your virtual assistant for Revolt Motors. How can I help you today?
+      </div>
+    </div>
+    
+    <div class="controls">
+      <button id="startBtn" title="Start conversation">🎤</button>
+      <button id="interruptBtn" class="interrupt-btn" title="Interrupt" disabled>⏹️</button>
+    </div>
+    
+    <div class="volume-control">
+      <span>🔈</span>
+      <input type="range" id="volumeSlider" class="volume-slider" min="0" max="100" value="70">
+      <span>🔊</span>
+    </div>
+  </div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
